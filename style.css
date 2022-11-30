@@ -1,0 +1,612 @@
+body{
+    background: #EEEFF1;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    background: #EEEFF1;
+}
+span{
+color:#006FFF
+}
+a{
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+
+}
+
+a:hover{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    color: #006fff;
+    cursor: pointer;
+}
+
+.header_logo{
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 28px;
+}
+
+.header_logo_h1{
+    color:#006fff
+
+    ;
+    font-size: 24px;
+    font-family: Josefin Sans ;
+}
+
+.header_menu{
+    cursor: pointer;
+    font-family: Roboto;
+    margin-left: 125px;
+    margin-top: 50px;
+}
+
+.menu_item{
+    padding-left: 30px;
+    font-size: 17px;
+}
+
+.intro{
+    padding-top: 200px;
+    display: flex;
+    width: 100%;
+
+}
+.intro_left{
+    width: 60%;
+    margin-bottom: 75px;
+
+}
+
+.intro_right{
+   width: 40%;
+}
+
+.intro_title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: #000000;
+}
+
+.intro_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #727272;
+    margin-bottom: 60px;
+}
+
+.intro_button{
+    cursor: pointer;
+    width: 500px;
+    height: 65px;
+    border: 0;
+    background: #006fff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    padding: 20px 19px;
+    margin-bottom: 100px;
+}
+
+.wrapper{
+    max-width: 1150px;
+    margin: 0 auto;
+    font-family: Roboto;
+}
+
+.info{
+    background: white;
+}
+
+.info_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.info_block{
+    width: 540px;
+    text-align: center;
+}
+
+.info_title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+    color: #000000;
+    margin-top: 119px;
+    margin-bottom: 50px;
+}
+
+.info_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 25px;
+    text-align:unset;
+    color: #727272;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+.about_dost_block{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    margin-left: 0px;
+font-size: 25px;
+}
+
+.project_img{
+    width: 141px;
+    height: 50px;
+}
+
+.preskills{
+    display: flex;
+    background-color: white;
+    text-align: center;
+
+    
+}
+.skills{
+width: 100%;
+display: flex;
+}
+.skills_opisanie{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: #727272;
+    margin-top: 50px;
+    background-color: white;
+}
+.skills_title{
+    padding-bottom: 100px;
+    margin-top: 204px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    color: #000000;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.skill1,.skill2,.skill3{
+    position: relative;
+    padding-bottom: 7px;
+    margin-top: 250px;
+}
+
+.skill1::before{
+    content: "";
+    width: 250px;
+    height: 4px;
+    background: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.skill1::after{
+    content: "";
+    width: 243px;
+    height: 4px;
+    background: green;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.skill2::before{
+    content: "";
+    width: 250px;
+    height: 4px;
+    background: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.skill2::after{
+    content: "";
+    width: 235px;
+    height: 4px;
+    background: green;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.skill3::before{
+    content: "";
+    width: 250px;
+    height: 4px;
+    background: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.skill3::after{
+    content: "";
+    width: 233px;
+    height: 4px;
+    background: green;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.voting{
+width: 50%;
+
+}
+.images_voting{
+    width: 40%;
+}
+.Images_setting{
+max-width: 300px;
+padding-top: 100px;
+padding-left: 100px;
+}
+.video_guide{
+max-width: 700px;
+height: 700px;
+}
+iframe{
+    width: 100%;
+    height: 500px;
+display: flex;
+}
+.process_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.process{
+height: 300px;
+background-color: white;
+margin-top: 50px;
+}
+.process_block{
+    width: 540px;
+    text-align: center;
+    
+}
+
+.process_title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    color: #000000;
+}
+
+.process_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 50px;
+    color: #727272;
+    margin-bottom: 57px;
+}
+
+
+.dostop_info{
+font-size: 25px;
+padding-left: 25px;
+}
+.my_dostop{
+width: 100%;
+margin-top: 50px;
+
+}
+h1{
+text-align: right;
+padding-top: 75px;
+}
+.dost_title{
+text-align: center;
+font-size: 32px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.Dostoprim_cremle,.Dostoprim_bank,.Dostoprim_stairs,.Dostoprim_street,.Dostoprim_memory{
+width: 100%;
+display: flex;
+}
+.Cremlin,.Bank,.stairs,.street,.Memory{
+width:50%;
+}
+.Cremlin_text,.Bank_text,.Stairs_text,.Street_text,.Memory_text{
+width: 50%;
+font-size: 20px;
+
+}
+.image_needed{
+width: 60%;
+padding-left: 50px;
+}
+
+.send_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.send_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.send_title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #000000;
+}
+
+.send_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 65px;
+    color: #727272;
+}
+
+.formstyle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 65px;
+    color: #5F5D5D;
+    border: 0;
+    padding: 17px 20px;
+}
+
+.form1{
+    width: 255px;
+    height: 50px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.form2{
+    width: 255px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.form3{
+    width: 584px;
+    height: 172px;
+    resize: none;
+    margin-bottom: 50px;
+}
+
+.send_button{
+    cursor: pointer;
+    width: 190px;
+    height: 55px;
+    border: 0;
+    background: #006fff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    padding: 20px 19px;
+    margin-bottom: 100px;
+}
+
+
+footer{
+    background-color: #006fff;
+}
+
+.footer_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer_left{
+    margin-right: 757px;
+    width: 193px;
+    padding-top: 60px;
+    padding-bottom: 49px;
+}
+
+.footer_name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+
+.copyright{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.social_logo{
+    padding-top: 70px;
+    padding-bottom: 55px;
+    width: 43.75px;
+    height: 40px;
+}
+@media(max-width:651px){
+    header{
+    position: relative;
+    }
+    .intro{
+        padding-top: 50px;
+    }
+    .header_logo{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+    .header_logo_h1{
+        font-size: 18px;
+    }
+    
+    .header_menu{
+        margin-left: 50px;
+        margin-top: 18px;
+        padding-right: 100px
+    }
+
+    .intro_left{
+        width: 40%;
+    
+    }
+    
+    .intro_right{
+       width: 60%;
+    }
+    
+    .intro_title{
+        font-size: 20px;
+    }
+    
+    .intro_text{
+        font-size: 14px;
+    }
+    
+    .intro_button{
+        width: 250px;
+    }
+    .image_needed{
+    width: 70%;
+    padding-top: 15px;
+    }
+    .skills_opisanie{
+        font-size: 21px;
+    }
+    .about_dost_block{
+    font-size: 20px;
+    width: 90%;
+    }
+    .skill1{
+        margin-top: 125px;
+        font-size: 18px;
+    }
+    .skill2{
+
+        margin-top: 160px;
+        font-size: 18px;
+    }
+    .skill3{
+        margin-top: 200px;
+        font-size: 18px;
+    }
+    
+
+    .voting{
+    width: 50%;
+    
+    }
+    .images_voting{
+        width: 50%;
+
+}
+.Images_setting{
+    max-width: 300px;
+    padding-top: 50px;
+    padding-left: 10px;
+    }
+.skills_title{
+font-size: 32px;
+}
+.skill1::before{
+    width: 100px;
+    height: 4px;
+}
+
+.skill1::after{
+    width: 97px;
+    height: 4px;
+}
+
+
+.skill2::before{
+    width: 100px;
+    height: 4px;
+}
+.skill2::after{
+    width: 92px;
+    height: 4px;
+}
+
+
+.skill3::before{
+    width: 100px;
+    height: 4px;
+}
+
+.skill3::after{
+    width: 91px;
+    height: 4px;
+}
+.info_title{
+    font-size: 36px;
+
+}
+
+.info_text{
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+.Cremlin_text,.Bank_text,.Stairs_text,.Street_text,.Memory_text{
+font-size: 15px;
+
+}
+.send_title{
+font-size: 25px;
+}
+footer{
+width: 200%;
+}
+
+}
+
