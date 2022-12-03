@@ -79,7 +79,6 @@ a:hover{
     font-weight: 500;
     font-size: 36px;
     color: #000000;
-    padding-left: 100px;
 }
 
 .intro_text{
@@ -89,7 +88,6 @@ a:hover{
     font-size: 20px;
     color: #727272;
     margin-bottom: 60px;
-    padding-left: 100px;
 }
 
 .intro_button{
@@ -107,7 +105,6 @@ a:hover{
     color: #FFFFFF;
     padding: 20px 19px;
     margin-bottom: 100px;
-    margin-left: 100px;
 }
 
 .wrapper{
@@ -150,7 +147,9 @@ a:hover{
     margin-bottom: 100px;
 }
 
-
+.menu_item{
+font-size: 15px
+}
 
 
 
@@ -346,10 +345,10 @@ width: 100%;
 display: flex;
 }
 .Cremlin,.Bank,.stairs,.street,.Memory{
-width:50%;
+width:30%;
 }
 .Cremlin_text,.Bank_text,.Stairs_text,.Street_text,.Memory_text{
-width: 50%;
+width: 70%;
 font-size: 20px;
 
 }
@@ -476,140 +475,5 @@ footer{
     padding-bottom: 55px;
     width: 43.75px;
     height: 40px;
-}
-@media(max-width:651px){
-    header{
-    position: relative;
-    }
-    .intro{
-        padding-top: 50px;
-    }
-    .header_logo{
-        margin-left: 10px;
-        margin-top: 10px;
-    }
-    
-    .header_logo_h1{
-        font-size: 18px;
-    }
-    
-    .header_menu{
-        margin-left: 50px;
-        margin-top: 18px;
-        padding-right: 100px
-    }
-
-    .intro_left{
-        width: 40%;
-    
-    }
-    
-    .intro_right{
-       width: 60%;
-    }
-    
-    .intro_title{
-        font-size: 20px;
-    }
-    
-    .intro_text{
-        font-size: 14px;
-    }
-    
-    .intro_button{
-        width: 250px;
-    }
-    .image_needed{
-    width: 70%;
-    padding-top: 15px;
-    }
-    .skills_opisanie{
-        font-size: 21px;
-    }
-    .about_dost_block{
-    font-size: 20px;
-    width: 90%;
-    }
-    .skill1{
-        margin-top: 125px;
-        font-size: 18px;
-    }
-    .skill2{
-
-        margin-top: 160px;
-        font-size: 18px;
-    }
-    .skill3{
-        margin-top: 200px;
-        font-size: 18px;
-    }
-    
-
-    .voting{
-    width: 50%;
-    
-    }
-    .images_voting{
-        width: 50%;
-
-}
-.Images_setting{
-    max-width: 300px;
-    padding-top: 50px;
-    padding-left: 10px;
-    }
-.skills_title{
-font-size: 32px;
-}
-.skill1::before{
-    width: 100px;
-    height: 4px;
-}
-
-.skill1::after{
-    width: 97px;
-    height: 4px;
-}
-
-
-.skill2::before{
-    width: 100px;
-    height: 4px;
-}
-.skill2::after{
-    width: 92px;
-    height: 4px;
-}
-
-
-.skill3::before{
-    width: 100px;
-    height: 4px;
-}
-
-.skill3::after{
-    width: 91px;
-    height: 4px;
-}
-.info_title{
-    font-size: 36px;
-
-}
-
-.info_text{
-    font-size: 25px;
-    margin-bottom: 100px;
-}
-.Cremlin_text,.Bank_text,.Stairs_text,.Street_text,.Memory_text{
-font-size: 15px;
-
-}
-.send_title{
-font-size: 25px;
-}
-footer{
-width: 200%;
-}
-
 }
 
