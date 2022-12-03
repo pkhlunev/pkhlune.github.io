@@ -1,4 +1,4 @@
-@media (max-width:651px){
+@media (max-width:651px),(orientation:landscape){
 header{
 position: relative;
 }
