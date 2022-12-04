@@ -1,0 +1,73 @@
+@media (max-width:651px),(orientation: portrait){
+header{
+position: relative;
+}
+.header_menu{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.intro_button{
+width: 250px;
+height: 15px;
+padding-bottom: 35px;
+}
+.intro_title{
+font-size: 18px;
+}
+.intro_text{
+font-size: 14px
+}
+.intro{
+padding-top: 100px;
+}
+.menu_item{
+	padding-left: 30px;
+	font-size: 16px;
+	}
+.info{
+width: 800px;
+}
+.about_dost_block{
+margin-left: 200px;
+width: auto;
+}
+.preskills{
+width: 800px;
+}
+.process{
+width: 800px;
+}
+.dostop_info{
+font-size: 25px;
+padding-left: 50px;
+}
+.Cremlin_text,.Bank_text,.Stairs_text,.Street_text,.Memory_text{
+	width: 70%;
+	font-size: 15px;
+}
+.send_title{
+font-size: 25px;
+padding-left:75px;
+}
+.send_text{
+	font-size: 20px;
+	padding-left:50px;
+	}
+	.form1{
+		padding-left: 17px;
+	}
+	.form3{
+	padding-left: 17px;
+	}
+	footer{
+	min-width: 800px;
+	}
+	.footer_name{
+	padding-left: 500px;
+	}
+	.copyright{
+	padding-left: 500px;
+	font-size: 13px;
+	display: flex;
+	}
+}
