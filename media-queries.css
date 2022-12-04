@@ -1,0 +1,102 @@
+@media (max-width:651px),(orientation: portrait){
+header{
+position: relative;
+width: 650px;
+}
+.header_menu{
+    margin-left: 30px;
+	width: 50%;
+}
+.intro_button{
+width: 250px;
+height: 15px;
+padding-bottom: 35px;
+margin-bottom: 100px;
+}
+.intro_title{
+font-size: 18px;
+}
+.intro_text{
+font-size: 14px;
+height: 4%
+}
+.intro{
+padding-top: 100px;
+width: 800px;
+padding-right: 50px;
+}
+.intro_right{
+padding-right: 50px;
+}
+.intro_left{
+padding-left: 50px;
+}
+.menu_item{
+	padding-left: 30px;
+	font-size: 16px;
+	}
+.info{
+width: 800px;
+}
+.about_dost{
+width: 800px;
+margin-left: 15px;
+}
+.preskills{
+width: 800px;
+}
+.process{
+width: 800px;
+}
+.skills{
+width: 800px;
+}
+.Images_setting{
+	width: 75%;
+}
+.voting{
+width: 50%;
+}
+.images_voting{
+width: 50%;
+margin-right: 50px;
+margin-top: 50px;
+}
+.attractions{
+width: 800px;
+}
+.dostop_info{
+font-size: 20px;
+padding-left: 50px;
+}
+.Cremlin_text,.Bank_text,.Stairs_text,.Street_text,.Memory_text{
+	width: 70%;
+	font-size: 15px;
+}
+.image_needed{
+width: 80%;
+}
+.send_form{
+width: 800px;
+}
+.send_title{
+font-size: 25px;
+padding-left:75px;
+}
+.send_text{
+	font-size: 20px;
+	padding-left:50px;
+	}
+	.form1{
+		padding-left: 17px;
+	}
+	.form3{
+	padding-left: 17px;
+	}
+	footer{
+	width: 800px;
+	}
+.footer_left{
+text-align: center;
+}
+}
