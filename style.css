@@ -453,6 +453,7 @@ footer{
     font-weight: 500;
     font-size: 21px;
     color: #FFFFFF;
+    text-align: center
 }
 
 .copyright{
@@ -461,6 +462,7 @@ footer{
     font-weight: normal;
     font-size: 13px;
     color: #FFFFFF;
+    text-align: center;
 }
 
 
